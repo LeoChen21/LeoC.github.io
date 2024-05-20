@@ -12,7 +12,7 @@ title                    : "Leo Chen"
 title_separator          : "-"
 name                     : &name "Leo Chen"
 description              : &description "Computer Engineering Student at Purdue University"
-url                      : https://leochen21.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Leo Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Engineering student with a focus in AI for computer vision 3"
+  bio              : "Computer Engineering student with a focus in AI for computer vision 4"
   location         : "West Lafayette"
   employer         : "Student of Purdue University"
   uri              : # URL
