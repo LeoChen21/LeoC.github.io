@@ -2,7 +2,7 @@
 title: "2023 Low-Power Computer Vision Challenge (LPCVC) Summary"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This paper summarizes the results of the 2023 LPCV challenge which my team hosted. Within contains detailed explanation on the competition format/execution, and an anaylsis of the winning teams' solutions.'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
