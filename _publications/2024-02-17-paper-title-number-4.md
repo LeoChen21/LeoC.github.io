@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "2023 Low-Power Computer Vision Challenge (LPCVC) Summary"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about fixing template issue #693.'
