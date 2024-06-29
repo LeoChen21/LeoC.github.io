@@ -12,8 +12,8 @@ redirect_from:
 # My Resume
 You can download Leo Chen's resume in PDF format here: [Leo Chen Resume PDF](../files/Leo%20Chen%20Resume.pdf).
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
