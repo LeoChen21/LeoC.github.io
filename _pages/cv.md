@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # My Resume
-You can download Leo Chen's resume in PDF format here: [Leo Chen Resume PDF](~/files/Leo%20Chen%20Resume.pdf).
+You can download Leo Chen's resume in PDF format here: [Leo Chen Resume PDF](../files/Leo%20Chen%20Resume.pdf).
 
 Publications
 ======
