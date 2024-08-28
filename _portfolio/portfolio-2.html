@@ -8,18 +8,40 @@ collection: portfolio
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>My Academic Page with Video</title>
+    <title>Project DaVinci</title>
+    <style>
+        .video-container {
+            display: flex; /* Use Flexbox to create two columns */
+            justify-content: space-between; /* Space videos evenly */
+            gap: 20px; /* Add some space between the columns */
+        }
+        .video-column {
+            flex: 1; /* Each column takes up equal width */
+            text-align: center; /* Center the content within each column */
+        }
+    </style>
 </head>
 <body>
 
-<h1>Welcome to My Academic Page</h1>
+<div class="video-container">
+    <!-- First Column with First Video -->
+    <div class="video-column">
+        <h2>Original Video</h2>
+        <video width="100%" controls>
+            <source src="https://leochen21.github.io/LeoC.github.io/videos/Leo1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-<p>Here is an example of an embedded video:</p>
-
-<video width="600" controls>
-  <source src="https://leochen21.github.io/LeoC.github.io/videos/Leo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+    <!-- Second Column with Second Video -->
+    <div class="video-column">
+        <h2>Pose Video</h2>
+        <video width="100%" controls>
+            <source src="https://leochen21.github.io/LeoC.github.io/videos/Leo1.MOV" type="video/mov">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
 
 </body>
 </html>
