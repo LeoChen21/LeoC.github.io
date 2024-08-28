@@ -4,30 +4,22 @@ excerpt: "Converts video of basketball shot to a video depicting shooting form."
 collection: portfolio
 ---
 
-3 Original Video. I've gotten better since then I swear. 
-<video id="myVideo" style="display:none;">
-    <source src="/videos/Leo1.mp4" type="video/mp4">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Academic Page with Video</title>
+</head>
+<body>
+
+<h1>Welcome to My Academic Page</h1>
+
+<p>Here is an example of an embedded video:</p>
+
+<video width="600" controls>
+  <source src="https://leochen21.github.io/LeoC.github.io/videos/Leo1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
-<p id="videoStatus">Checking video status...</p>
-
-<script>
-    var video = document.getElementById('myVideo');
-    var statusElement = document.getElementById('videoStatus');
-
-    video.addEventListener('loadeddata', function() {
-        statusElement.textContent = "Video file was found and loaded successfully.";
-        video.style.display = 'block';
-    });
-
-    video.addEventListener('error', function() {
-        statusElement.textContent = "Video file was not found or could not be loaded.";
-    });
-
-    // Set a timeout in case the video neither loads nor errors out
-    setTimeout(function() {
-        if (statusElement.textContent === "Checking video status...") {
-            statusElement.textContent = "Video status check timed out. The file may not exist or there might be a network issue.";
-        }
-    }, 5000);  // 5 second timeout
-</script>
+</body>
+</html>
