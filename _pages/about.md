@@ -9,5 +9,5 @@ redirect_from:
 
 Welcome to my website. This serves as a documentation of all that I've done.
 
-![](../images/Hero-Image.png)
+![](images/Hero-Image.png)
 
