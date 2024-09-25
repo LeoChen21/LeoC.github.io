@@ -9,5 +9,5 @@ redirect_from:
 
 Welcome to my website. This serves as a documentation of all that I've done and a presentation of all projects that I have or will complete.
 
-Brief Explanation of Sections:
+![Description of image](../images/Hero Image.png)
 
