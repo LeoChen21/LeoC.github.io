@@ -9,5 +9,5 @@ redirect_from:
 
 Welcome to my website. This serves as a documentation of all that I've done and a presentation of all projects that I have or will complete.
 
-![Description of image](../images/Hero%20Image.png)
+![Description of image]("../images/Hero Image.png")
 
