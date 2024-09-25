@@ -21,7 +21,7 @@ repository               : "LeoChen21/LeoC.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Selfie.png"
+  avatar           : "Selfie.jpg"
   name             : "Leo Chen"
   pronouns         : # example: "she/her"  
   bio              : "Computer Engineering student with a focus in AI for computer vision"
