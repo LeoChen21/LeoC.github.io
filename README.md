@@ -9,4 +9,4 @@ https://leochen21.github.io/LeoC.github.io/
 The website documents what I've done and includes pages for my publications, portfolio, and cv. In addition, you can find my professional links and contact information on the left tab.
 
 For a list of pages, visit:
-https://leochen21.github.io/LeoC.github.io/list/
+https://leochen21.github.io/LeoC.github.io/sitemap/
