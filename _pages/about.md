@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website. This serves as a documentation of all that I've done.
+Welcome to my website. This serves as a presentation of my journey through software engineering.
 
 ![](images/Hero-Image.png)
 
