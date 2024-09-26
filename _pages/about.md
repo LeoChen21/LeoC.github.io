@@ -11,3 +11,7 @@ Welcome to my website. This serves as a presentation of my journey through softw
 
 ![](images/Hero-Image.png)
 
+Check out the associated github here: https://github.com/LeoChen21/LeoC.github.io
+
+Check out a list of pages here: https://leochen21.github.io/LeoC.github.io/sitemap/
+
