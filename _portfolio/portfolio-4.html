@@ -14,10 +14,18 @@ collection: portfolio
             display: flex; /* Use Flexbox to create two columns */
             justify-content: space-between; /* Space videos evenly */
             gap: 20px; /* Add some space between the columns */
+            flex-wrap: wrap; /* Allow videos to stack on smaller screens */
         }
         .video-column {
             flex: 1; /* Each column takes up equal width */
+            max-width: 560px; /* Limit width to YouTube's standard size */
             text-align: center; /* Center the content within each column */
+        }
+        iframe {
+            width: 100%; /* Make the iframe responsive */
+            aspect-ratio: 16 / 9; /* Maintain the 16:9 aspect ratio */
+            max-width: 560px; /* Set maximum width for better scaling */
+            border: none; /* Remove border for a cleaner look */
         }
     </style>
 </head>
@@ -27,13 +35,13 @@ collection: portfolio
     <!-- First Column with First Video -->
     <div class="video-column">
         <h2>Heatmap Version 1</h2>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZY57LuPqkXQ?start=14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ZY57LuPqkXQ?start=14" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <!-- Second Column with Second Video -->
     <div class="video-column">
         <h2>Heatmap Version 2</h2>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/gjNX8DXJ3lw?start=52" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/gjNX8DXJ3lw?start=52" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 
